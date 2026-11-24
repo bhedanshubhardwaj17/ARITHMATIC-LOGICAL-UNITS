@@ -115,11 +115,6 @@ Applications
 - Computer architecture
 - VLSI and RTL design
 
-Project Files
-
-- "alu4bit.v" – Main ALU design
-- "alu4bit.digitaljs" – DigitalJS circuit
-
 Project Category
 
 Academic Project | Digital Electronics | Verilog HDL | RTL Design | Electronics and Communication Engineering
