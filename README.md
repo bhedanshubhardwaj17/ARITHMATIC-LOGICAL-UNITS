@@ -15,50 +15,83 @@ Supported Operations
 Arithmetic Operations
 
 Opcode| Operation| Function
+
 0000| ADD| A + B
+
 0001| SUB| A - B
+
 0010| MUL| A × B
+
 0011| INC| A + 1
+
 0100| DEC| A - 1
+
 
 Bitwise Logic Operations
 
 Opcode| Operation| Function
+
 0101| AND| A & B
+
 0110| OR| A | B
+
 0111| XOR| A ^ B
+
 1000| NOT| ~A
+
 1001| NAND| ~(A & B)
+
 1010| NOR| ~(A | B)
+
 1011| XNOR| ~(A ^ B)
+
 
 Shift and Rotate Operations
 
 Opcode| Operation| Function
+
 1100| SHL| Shift Left
+
 1101| SHR| Shift Right
+
 1110| ROL| Rotate Left
+
 1111| ROR| Rotate Right
+
 
 Input and Output Specifications
 
 Signal| Width| Description
+
 A| 4-bit| First input operand
+
 B| 4-bit| Second input operand
+
 S| 4-bit| Operation select
+
 Y| 8-bit| Result output
+
 Carry| 1-bit| Carry indication
+
 Zero| 1-bit| Zero-result flag
+
 
 Example Operations
 
 Operation| A| B| Result
+
 ADD| 0101| 0011| 00001000
+
 SUB| 1001| 0011| 00000110
+
 MUL| 1111| 1111| 11100001
+
 AND| 1100| 1010| 00001000
+
 OR| 1100| 1010| 00001110
+
 XOR| 1100| 1010| 00000110
+
 
 Working Principle
 
@@ -86,8 +119,6 @@ Project Files
 
 - "alu4bit.v" – Main ALU design
 - "alu4bit.digitaljs" – DigitalJS circuit
-- "alu4bit_tb.v" – Testbench
-- "waveform.vcd" – Simulation waveform
 
 Project Category
 
